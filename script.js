@@ -8,6 +8,7 @@ $(document).ready(function() {
 			"dom": '<"dt-buttons"Bf><"clear">lirtp',
 			"paging": false,
 			"autoWidth": true,
+			"order": [[ 2, "desc" ]],
 			"columnDefs": [
 				{ "orderable": false, "targets": 5 }
 			],
